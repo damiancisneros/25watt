@@ -1,0 +1,42 @@
+.main__contenedor4{
+    width: 100%;
+    height: 768px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    background: rgb(251, 252, 250);
+    background: linear-gradient(90deg, rgb(240, 243, 238) 80%, rgb(198, 204, 195) 80%);
+    background-position: right;
+    .main__contenedor4__img{
+        img{
+    position: relative;
+            top: 160px;
+            left: 240px;
+        }
+    }
+    .main__contenedor4__text{
+      
+        h4{
+            position: relative;
+            top: 120px;
+            left: 101px;
+            font-size: 39px;
+            font-family: $font-secundario;
+            color: $color-text-secundario;
+        }
+        span{
+            font-size: 39px;
+            font-family: $font-secundario;
+            color: $color-primario;
+        }
+        .main__contenedor4__form{
+            position: relative;
+            top: 185px;
+            left: 101px;
+            width: 100%;
+            
+     
+        }
+    }
+   
+}

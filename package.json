@@ -1,0 +1,20 @@
+{
+  "name": "pin25",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-compile": "sass styles/sass/index.scss styles/css/index.css",
+    "sass-watch": "sass --watch styles/sass/index.scss styles/css/index.css"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.1"
+  },
+  "devDependencies": {
+    "sass": "^1.42.1"
+  }
+}

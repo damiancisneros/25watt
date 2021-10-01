@@ -1,0 +1,10 @@
+$primary: #1312126e;
+$danger: #ff4136;
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger
+);
+
+$accordion-button-active-color:           shade-color($primary, 10%);
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
